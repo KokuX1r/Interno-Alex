@@ -1,0 +1,83 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+@font-face{
+    font-family: "DM Serif DisplayReg";
+    src: url("../fonts/DMSerifDisplay-Regular.ttf");
+}
+@font-face{
+    font-family: "JostReg";
+    src: url("../fonts/static/Jost-Regular.ttf");
+}
+:root{
+    --primary-color: #CDA274;
+    --secondary-color: #292F36;
+    --background-color: #FFFFFF;
+    --main-color: #4D5053;
+    --backimg-color: #F4F0EC;
+    --backcards-color: #E7E7E7;
+    --back-foot: #E5E5E5;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav-head{
+    font-family: "JostReg";
+}
+
+.main-p{
+    font-family: "JostReg";
+}
+
+.main-h{
+    font-family: "DM Serif DisplayReg", sans-serif;
+    font-weight: 150;
+}
+
+.nav-a{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.nav-header a:hover{
+    color: var(--primary-color);
+}
+
+.container .nav-header{
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+}
+.nav-header{
+    margin-right: 30px;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+.header-img-cont img{
+    display: flex;
+    padding-right: 1000px;
+    padding-top: 25px;
+    width: 177px;
+    height: 50px;
+}
+
+
+
+.start-int{
+    height: 900px;
+    background: url(../img/img28.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.start-int22{
+    padding-left: 150px;
+    padding-top: 200px;
+}
+
+.start{
+    font-size: 80px;
+}
